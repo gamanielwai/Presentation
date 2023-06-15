@@ -1,5 +1,5 @@
 # Presentation
-Intervju uppgift.
+
 Detta projekt är en enkel Todo-applikation som består av en frontend byggd med React och en backend byggd med Spring Boot.
 
 Projektet är uppdelat i två huvudkataloger:
