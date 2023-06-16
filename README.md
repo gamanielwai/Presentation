@@ -10,10 +10,8 @@ För att bygga och köra hela applikationen, följ följande steg:
 
 Navigera till frontend/todo-app-katalogen. 
 
-Kör docker build -t todo-app-frontend . för att bygga Docker-behållaren.
+Kör "docker build -t todo-app ." för att bygga Docker-behållaren.
 
-Kör docker build -t todo-app-backend . för att bygga Docker-behållaren. 
-
-Kör applikationen
+Kör "docker build -t presentation ." för att bygga Docker-behållaren. 
 
 Kör docker run -p 3000:3000 todo-app-frontend för att starta frontend-behållaren. Kör docker run -p 8080:8080 todo-app-backend för att starta backend-behållaren. När båda behållarna körs kan du öppna en webbläsare och navigera till http://localhost:3000 för att se applikationen.
