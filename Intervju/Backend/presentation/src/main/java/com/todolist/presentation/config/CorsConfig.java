@@ -18,12 +18,11 @@ public class CorsConfig {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 // Lägg till en CORS-mapping
-                // Från följande ursprung (http://localhost:3000 och http://192.168.99.100:8080)
                 // Med följande metoder (GET, POST, PUT, DELETE, HEAD, OPTIONS)
                 // Alla headers tillåts (*)
                 // Cookies (credentials) tillåts
                 registry.addMapping("/**")
-                        .allowedOrigins("http://localhost:3000", "http://192.168.99.100:8080")
+                        .allowedOrigins("http://localhost:3000", "http://192.168.99.100:3000")
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "HEAD", "OPTIONS")
                         .allowedHeaders("*")
                         .allowCredentials(true);
