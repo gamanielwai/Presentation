@@ -25,5 +25,4 @@ För att bygga och köra hela applikationen, följ följande steg:
 8. Kör `docker run -p 8080:8080 presentation` för att starta backend-behållaren.
 9. Kör `docker run -p 3000:3000 todo-app` för att starta frontend-behållaren.
 
-När båda behållarna körs kan du öppna en webbläsare och navigera till http://localhost:3000 för att se applikationen.
-
+När båda behållarna körs kan du öppna en webbläsare och navigera till http://localhost:3000 för att se applikationen. Observera att om du kör Docker i vissa miljöer, som Docker Quickstart Terminal i Windows, kanske du behöver använda en annan IP-adress. I dessa fall, försök navigera till http://192.168.99.100:3000 istället.
